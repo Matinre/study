@@ -1,0 +1,14 @@
+kill指定进程
+ps -ef | grep 进程名(或关键字) | grep -v grep | awk '{print $2}' | xargs kill -9
+
+查看相关进程
+ps -ef |grep tomcat
+
+删除指定文件
+rm -rf 文件夹
+rm -f 文件
+
+
+
+config: "{↵  "info": {↵    "title": "Webwall 规则库 - 2",↵    "author": "user custom",↵    "version": "alpha",↵    "date": "2019-10-01",↵    "description": "用户自定义规则"↵  },↵  "rules": [↵  ]↵}"
+filename: "webwall-custom.json"
